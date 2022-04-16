@@ -1,6 +1,6 @@
 import random
 
-numero = round(random.randrange(1, 5))
+numero = random.randrange(1,5)
 creme = 1
 leo = 2
 limao = 3
@@ -9,13 +9,11 @@ sato = 4
 if(numero == creme):
     print ("Creme")
 
-if(numero == leo):
+elif(numero == leo):
     print ("Léo")
 
-if(numero == limao):
+elif(numero == limao):
     print("Limão")
 
-if(numero == sato):
+elif(numero == sato):
     print("Sato")
-
-print()
